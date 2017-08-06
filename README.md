@@ -1,21 +1,23 @@
 <h1> Webpack 搭建的 React 脚手架 </h1>
 
-<h2> 脚手架目录结构 </h2>
-<h3> src: 前端代码目录 </h3>
+<h3> 脚手架目录结构 </h3>
 <ul>
-  <li>script.entry.js: Webpack打包的入口文件</li>
-  <li>react/ 用于存放 react的 components、container、actions、reducer</li>
-  <li>views/ 用于存放 html模板</li>
-  <li>style/ 用于存放 非react组件相关的样式文件</li>
-  <li>font/ 用于存放 字体文件</li>
+  <li>src: 前端代码目录</li>
+  <li>
+    <ul>
+      <li>script.entry.js: Webpack打包的入口文件</li>
+      <li>react/ 用于存放 react的 components、container、actions、reducer</li>
+      <li>views/ 用于存放 html模板</li>
+      <li>style/ 用于存放 非react组件相关的样式文件</li>
+      <li>font/ 用于存放 字体文件</li>
+    </ul>
+    除入口文件 entry.js外，其他文件可删除，换成自己的项目代码。入口文件也可改写，因为被webpack引用，不要删除。
+  </li>
+  <li>node: 后端代码目录</li>
+  <li>config: node代码中，使用的配置文件</li>
 </ul>
-除入口文件 entry.js外，其他文件可删除，换成自己的项目代码。入口文件也可改写，因为被webpack引用，不要删除。<br/>
 <br/>
-<h3> node: 后端代码目录 </h3>
-<br/>
-<h3> config: node代码中，使用的配置文件 </h3>
-<br/>
-<h2> 终端命令 </h3>
+<h3> 终端命令 </h3>
 npm install 安装 项目依赖模块<br/>
 npm start 启动 开发服务器（保存更新项目代码时，自动编译打包，重启开发服务器，用于开发时使用）<br/>
 <ul>
