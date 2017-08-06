@@ -7,6 +7,7 @@ src: 前端代码目录<br/>
 + views/ 用于存放 html模板
 + style/ 用于存放 非react组件相关的样式文件
 + font/ 用于存放 字体文件
+<br/>
 除入口文件 entry.js外，其他文件可删除，换成自己的项目代码。入口文件也可改写，因为被webpack引用，不要删除。<br/>
 <br/>
 node: 后端代码目录<br/>
