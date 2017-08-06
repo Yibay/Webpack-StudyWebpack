@@ -1,7 +1,7 @@
-# Webpack 搭建的 React 脚手架 #
+<h1> Webpack 搭建的 React 脚手架 </h1>
 
-## 脚手架目录结构 ##
-### src: 前端代码目录 ###
+<h2> 脚手架目录结构 </h2>
+<h3> src: 前端代码目录 </h3>
 + script.entry.js: Webpack打包的入口文件
 + react/ 用于存放 react的 components、container、actions、reducer
 + views/ 用于存放 html模板
