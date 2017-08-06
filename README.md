@@ -2,11 +2,13 @@
 
 <h2> 脚手架目录结构 </h2>
 <h3> src: 前端代码目录 </h3>
-+ script.entry.js: Webpack打包的入口文件
-+ react/ 用于存放 react的 components、container、actions、reducer
-+ views/ 用于存放 html模板
-+ style/ 用于存放 非react组件相关的样式文件
-+ font/ 用于存放 字体文件<br/>
+<ul>
+  <li>script.entry.js: Webpack打包的入口文件</li>
+  <li>react/ 用于存放 react的 components、container、actions、reducer</li>
+  <li>views/ 用于存放 html模板</li>
+  <li>style/ 用于存放 非react组件相关的样式文件</li>
+  <li>font/ 用于存放 字体文件</li>
+</ul>
 除入口文件 entry.js外，其他文件可删除，换成自己的项目代码。入口文件也可改写，因为被webpack引用，不要删除。<br/>
 <br/>
 <h3> node: 后端代码目录 </h3>
