@@ -16,13 +16,13 @@
   <li>config: node代码中，使用的配置文件</li>
 </ul>
 <h3> 终端命令 </h3>
-npm install 安装 项目依赖模块<br/>
-npm start 启动 开发服务器（保存更新项目代码时，自动编译打包，重启开发服务器，用于开发时使用）<br/>
+<code>npm install</code> 安装 项目依赖模块<br/>
+<code>npm start</code> 启动 开发服务器（保存更新项目代码时，自动编译打包，重启开发服务器，用于开发时使用）<br/>
 <ul>
   <li>网址：localhost:3001</li>
 </ul>
-npm run build 编译打包，生成文件存放在 dist/ 目录下（用于发布到线上时使用）<br/>
-node app.js 启动 项目搭建的node服务器<br/>
+<code>npm run build</code> 编译打包，生成文件存放在 dist/ 目录下（用于发布到线上时使用）<br/>
+<code>node app.js</code> 启动 项目搭建的node服务器<br/>
 <ul>
   <li>网址：localhost:3000</li>
 </ul>
