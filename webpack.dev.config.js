@@ -76,7 +76,7 @@ module.exports = {
 			// js插入位置
 			inject: 'body',
 			// 向 html模版传入 自定义参数
-			title: 'webpack is awesome!',
+			title: '测试打标签',
 			// 压缩代码
 			minify: {
 				// 移除 html注释
