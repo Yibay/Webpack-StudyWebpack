@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8" />
-	<!-- 引用webpack html-webpack-plugin 插件配置中 自定的 参数 -->
-	<title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8" />
+    <title>Koa show html</title>
 </head>
+
 <body>
-	<div id="app"></div>
+    <div id='app'></div>
+    <!-- webpack-dev-server devServer contentBase 配置的为 编译后的html入口文件 -->
+    <!-- 所以 这里 main.js 要自己引入 -->
+    <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>
