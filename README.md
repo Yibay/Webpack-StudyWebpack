@@ -1,6 +1,6 @@
-#Webpack 搭建的 React 脚手架
+# Webpack 搭建的 React 脚手架
 
-##脚手架目录结构
+## 脚手架目录结构
 src: 前端代码目录<br/>
 + script.entry.js: Webpack打包的入口文件
 + react/ 用于存放 react的 components、container、actions、reducer
@@ -13,7 +13,7 @@ node: 后端代码目录<br/>
 <br/>
 config: node代码中，使用的配置文件<br/>
 <br/>
-##终端命令
+## 终端命令
 npm install 安装 项目依赖模块<br/>
 npm start 启动 开发服务器（保存更新项目代码时，自动编译打包，重启开发服务器，用于开发时使用）<br/>
 + 网址：localhost:3001
