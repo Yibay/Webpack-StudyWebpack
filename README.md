@@ -2,8 +2,7 @@
 
 <h3> 脚手架目录结构 </h3>
 <ul>
-  <li>src: 前端代码目录</li>
-  <li>
+  <li>src: 前端代码目录
     <ul>
       <li>script.entry.js: Webpack打包的入口文件</li>
       <li>react/ 用于存放 react的 components、container、actions、reducer</li>
