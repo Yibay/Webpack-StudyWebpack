@@ -123,8 +123,9 @@ module.exports = {
                 use: [{
                         loader: 'url-loader',
                         options: {
-                            // 防止 image同名、用[path]区分下 路径
-                            name: '[path][name].[ext]',
+                            // 防止 image同名、用[hash]区分下 
+                            // [hash] 根据图片内容 生成
+                            name: '[name][hash].[ext]',
                             // outputPath: 用于存放 图片
                             // output.path 后；
                             // file-loader.name 前;
