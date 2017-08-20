@@ -22,6 +22,30 @@ class App extends Component {
 	}
 }
 
+// 测试 class内, 直接写对象属性和方法
+class Test {
+
+	// 对象属性
+	obj_props = 'obj_props';
+	// 对象方法
+	obj_func = () => console.log('obj_func');
+
+	// 原型方法
+	prototypeFunc() {
+		console.log('prototypeFunc');
+	}
+
+	// 类方法
+	static staticFunc() {
+		console.log('staticFunc');
+	}
+}
+
+let test = new Test();
+
+console.log(test);
+console.dir(Test);
+
 // 从 state 中，筛选出 部分数据，传入 connect绑定的组件
 function mapStateToProps (state, ownProps) {
 	// 返回一个obj

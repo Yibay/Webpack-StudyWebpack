@@ -60,9 +60,10 @@ module.exports = {
 	                        // 引入 解析jsx语法 的预置模块
 	                        presets: [
 	                            ['latest'],
+                                ['stage-2'],
 	                            ['react']
 	                        ],
-	                        plugins: []
+	                        plugins: ['transform-runtime']
 	                    }
 	                }
                 ]
