@@ -76,7 +76,10 @@ module.exports = {
                     {
                         loader: 'css-loader',
                         // 解析时，遇到 @import时，退到前一loader（postcss-loader）处理
-                        options: { importLoaders: 1 }
+                        options: {
+                            importLoaders: 1
+                            // css文件 因为有iconfont.css的关系，使用modules: true会报错
+                        }
                     },
                     {
                         loader: 'postcss-loader',
@@ -91,7 +94,15 @@ module.exports = {
                 test: /\.scss$/,
                 use: [
                     'style-loader',
-                    'css-loader',
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            // 启用 css模块化
+                            modules: true,
+                            // 启用 css模块化的sourceMap
+                            sourceMap: true
+                        }
+                    },
                     {
                         loader: 'postcss-loader',
                         options: {

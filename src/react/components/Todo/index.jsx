@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
-import './index.scss'
+import styles from './index.scss'
+
+console.log(styles);
 
 class Todo extends Component {
 	render() {
-		return <li className={this.props.completed ? 'completed' : null} onClick={this.props.onToggleClick}>{this.props.text}</li>
+		return <li className={this.props.completed ? styles.completed : null} onClick={this.props.onToggleClick}>{this.props.text}</li>
 	}
 }
 
